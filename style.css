@@ -786,6 +786,8 @@ footer{
     font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
+    color: orangered;
+    background-color: bisque;
   }
   .signup{
     font-weight: bold;
@@ -800,6 +802,8 @@ footer{
     transition: all 200ms;
     color: #4299e1;
     border-radius: 5px;
+    color: orangered;
+    background-color: bisque;
   }
   .login:hover{
     color: white;
