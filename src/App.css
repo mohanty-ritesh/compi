@@ -825,6 +825,7 @@ footer{
   }
   li{
     list-style: none;
+    padding-top: 15px;
   }
   .maincont{
     margin-top: 0;
