@@ -214,7 +214,8 @@ a{
     animation-iteration-count: infinite;
 }
 #projectss{
-    color: #a47278;
+    color: bisque;
+    -webkit-text-stroke: 2px black;
 }
 @keyframes cubeRotate{
     0%{
