@@ -3,9 +3,7 @@
 :root{
     --bgOrange:#e84949;
 }
-.inx{
-    /* background-image: url(./images/White.png); */
-}
+
 html{
 
         scroll-behavior: smooth;
