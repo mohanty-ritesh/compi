@@ -3,6 +3,9 @@
 :root{
     --bgOrange:#e84949;
 }
+.inx{
+    /* background-image: url(./images/White.png); */
+}
 html{
 
         scroll-behavior: smooth;
@@ -210,6 +213,9 @@ a{
     animation-duration: 3s;
     animation-iteration-count: infinite;
 }
+#projectss{
+    color: #a47278;
+}
 @keyframes cubeRotate{
     0%{
         transform:rotateY(0deg) translateY(0px);
@@ -268,7 +274,7 @@ a{
 
 
 .project-section{
-    background-color: darkslategray;
+    background-color: #294343;
     /* margin-top: 4rem; */
 
     
@@ -405,14 +411,14 @@ a{
     transform: scale(1.1);
 }
 #project1{
-    background-image: url(./images/Project1.png);
+    background-image: url(./images/comp.jpeg);
 }
 #project2{
-    background-image: url(./images/Project2.png);
+    background-image: url(./images/mern.png);
     margin-left: 120px;
 }
 #project3{
-    background-image: url(./images/Project3.png);
+    background-image: url(./images/price.jpg);
 }
 #project4{
     background-image: url(./images/Project4.png);
@@ -674,13 +680,15 @@ footer{
 
 /* Add a class for the "Read More" button */
 .expandable {
-    background: #fff;
+    background:bisque;
     overflow: hidden;
     /* margin: 82px; */
     transition: all .5s ease-in-out;
     line-height: 0;
     padding: 0 1em;
     color: transparent;
+    /* color: #2f4f4f; */
+    font-weight: bold;
   }
    
   .expandable:target {

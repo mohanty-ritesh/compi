@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import project1Image from './images/Project1.png';
-import project2Image from './images/Project2.png';
-import project3Image from './images/Project3.png';
-import project4Image from './images/Project4.png';
+// import project1Image from './images/Project1.png';
+// import project2Image from './images/Project2.png';
+// import project3Image from './images/Project3.png';
+import project4Image from './images/White.png';
 
 
 function App() {
@@ -21,11 +21,10 @@ function App() {
           <div class="navu">
   
               <a href="/" class="navi">
-                  <img 
-                  src={process.env.PUBLIC_URL+'/images/White.png'}
-                  width="125px"
-                  height="30px"/>
+                  <img class="inx" 
+                  url('./images/White.png')
               </a>
+              
               <ul class="unorder">
                   <li class="itemz">
                       <a href="#" class="yo">Project</a>
@@ -54,12 +53,13 @@ function App() {
             </div>
       </nav>    
       <div class="maincont"> <div class="project-section">
-              <h2 class="page-header" id="projects">Events</h2>
+              <h2 class="page-header" id="projectss">Wlcome to Events Page</h2>
               <div class="eventlist">
                   <ul class="gridi">
+                  <h2 class="page-header" id="projects">Events</h2>
                       <a href="#project1"><li>Compete with Your Peers!</li></a>
                       <a href="#project2"><li>Becoming a MERN Devloper</li></a>
-                      <a href="#project3"><li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li></a>
+                      <a href="#project3"><li>Prize Distribution.</li></a>
                       <a href="#project4"><li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li></a>
                       <a href="#project1"><li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li></a>
                       <a href="#project1"><li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li></a>
@@ -81,40 +81,46 @@ function App() {
                           <a href="#nav0"><span class="btn-pink btn-project"> Click </span></a>
                           
                           <a href="">
-                              <i title="Live Link" class="fa-solid fa-link icon"></i>
+                              <i title="Live Link"   class="fa-solid fa-link icon"></i>
                           </a>
                       </div>
                       <div class="expandable" id="nav0">
-                          <p>Cum enim magna parturient ac elementum,  mattis mauris lacus a,  vel ridiculus diam pellentesque sociis habitasse pellentesque, augue parturient sed elementum aenean. Tincidunt tristique.</p>
+                          <p>DATE:30/02/2030<br>
+                          TIME:12:12<br>
+                          TRAINER:<br>
+                          FEES:0 </p>
                       </div>
                   </div>
               </div>    
               <div class="project-card" id="project2">
-                  <div class="project-number project-number-right">2</div>
-                  <div class="project-content project-content-left">
-                      <div class="project-heading">Compete with Your Peers - Become a Top-Notch Developer!</div>
-                      <div class="project-subheading">
+                      <div class="project-number project-number-left">02</div>
+                      <div class="project-content project-content-left">
+                          <div class="project-skills-container">           
+                              <img class="project-skill" src="./images/NextJsCircle.png" alt=""/>
+                              <img class="project-skill" src="./images/Tailwind.png" alt=""/>        
+                              <img class="project-skill" src="./images/Vercel.svg" alt=""/>
+                          </div>
+                          <div class="project-heading">Becoming a MERN Devloper</div>
+                          <div class="project-subheading">
                           <P>Becoming a MERN (MongoDB, Express, React, Node.js) developer is an exciting and rewarding journey in the world of web development. MERN is a popular full-stack development stack that allows you to build powerful and dynamic web applications.</P>
+                          </div>
+                          <div class="btn-grp">
+                              <button class="btn-pink btn-project">Read More</button>
+                              <a href="">
+                                  <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                              </a>
+                              <a href="">
+                                  <i title="Live Link" class="fa-solid fa-link icon"></i>
+                              </a>
+                          </div>
                       </div>
-                      <div class="btn-grp">
-                          <a href="#nav"><span class="btn-pink btn-project"> Click </span></a>
-                          
-                          <a href="">
-                              <i title="Live Link" class="fa-solid fa-link icon"></i>
-                          </a>
-                      </div>
-                      <div class="expandable" id="nav">
-                          <p>Cum enim magna parturient ac elementum,  mattis mauris lacus a,  vel ridiculus diam pellentesque sociis habitasse pellentesque, augue parturient sed elementum aenean. Tincidunt tristique.</p>
-                      </div>
-                  </div>
-              </div>    
-                  
+                  </div>   
                   <div class="project-card" id="project3">
                       <div class="project-number project-number-right">03</div>
                       <div class="project-content project-content-right">
-                          <div class="project-heading">Isha Tattva</div>
+                          <div class="project-heading">Prize Distribution</div>
                           <div class="project-subheading">
-                              A Website for interior designer to showcase her works and samples
+                          Prize Distribution is a significant event that takes place in various competitions, tournaments, contests, and ceremonies to honor and reward individuals or teams for their exceptional performances, achievements, and accomplishments. It is a moment of celebration and recognition, where participants who have excelled in their respective fields are acknowledged and appreciated for their hard work, dedication, and talent.
                           </div>
                           <div class="btn-grp">
                               <button class="btn-pink btn-project">Read More</button>
@@ -135,10 +141,9 @@ function App() {
                               <img class="project-skill" src="./images/Tailwind.png" alt=""/>        
                               <img class="project-skill" src="./images/Vercel.svg" alt=""/>
                           </div>
-                          <div class="project-heading">Granit</div>
+                          <div class="project-heading">Intern Nexus</div>
                           <div class="project-subheading">
-                              A agriculture website to plan your  building or home (Hebrew
-                              Language)
+                          Intern Nexus is a dynamic and innovative company that specializes in connecting businesses with talented interns and providing comprehensive training programs for aspiring students. As a leading intermediary in the internship and training space, Intern Nexus plays a crucial role in bridging the gap between companies seeking skilled interns and students eager to gain practical experience in their chosen fields.
                           </div>
                           <div class="btn-grp">
                               <button class="btn-pink btn-project">Read More</button>
